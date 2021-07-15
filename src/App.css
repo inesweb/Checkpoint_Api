@@ -20,6 +20,9 @@ body {
 .title{
   color: darkgoldenrod;
   font-size: x-large;
+  margin-left: -146px;
+  margin-bottom: -47px;
+  margin-right: -99px;
 
 }
 
@@ -41,6 +44,8 @@ body {
   margin-left: 1rem;
   margin-top: 0.3rem;
   display: grid;
+  margin-top: -155px;
+  margin-left: -31px;
 }
 
 
@@ -73,3 +78,7 @@ body {
   text-decoration: none;
 }
 
+.user-img {
+  width: 214px;
+  -webkit-clip-path: ellipse(34% 33%);
+}

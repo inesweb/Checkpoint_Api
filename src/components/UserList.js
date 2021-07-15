@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import axios from "axios";
+import UserPhoto from "../User_icon.png"
 
 function UserList() {
   const [users, setUsers] = useState({ hits: [] });
@@ -23,6 +24,9 @@ function UserList() {
             <span  key={item.id}
             className="collection-item left-align red lighten-3">
           <h5 className="title">User ID: {item.id}</h5>
+          <div className="user-img">
+                <img src={UserPhoto} />
+                </div>
           <div className="user-details">
                 <div>
                     <strong className="details"> Name: </strong> {item.name}
